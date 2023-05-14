@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class FindElementsHasMaxValue {
     public static void main(String[] args) {
         int[][] matrix = {
@@ -19,5 +21,16 @@ public class FindElementsHasMaxValue {
             }
         }
         System.out.printf("giá trị lớn nhất trong mảng là %s tại dòng %s cột %s", maxValue, indexRow, indexCol);
+        for (int i = 0; i<matrix.length; i++) {
+            for(int j = 0; j < matrix[i].length; j++) {
+                if(matrix[i][j] == maxValue) {
+                    indexRow = i;
+                    indexCol = j;
+                }
+            }
+        }
+        System.out.printf("\ngiá trị lớn nhất trong mảng là %s tại dòng %s cột %s", maxValue, indexRow, indexCol);
+        }
+
     }
-}
+

@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class AddElement {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int[] numbers = {1, 2, 3, 5, 6, 7, 8};
+        int[] numbers = {1, 2, 3, 5, 6, 7, 9};
         System.out.println("Các phần tử trong mảng:");
         showArray(numbers);
         System.out.println("Nhập số cần chèn");
         int num = scanner.nextInt();
         System.out.println("Nhập vị trí cần chèn");
         int index = scanner.nextInt();
-        if(index <= -1 || index >= numbers.length -1) {
+        if(index < 0 || index > numbers.length -1) {
             System.out.println("Không chèn được phần tử vào mảng");
         } else {
             System.out.println("Mảng sau khi chèn thêm phần tử:");
