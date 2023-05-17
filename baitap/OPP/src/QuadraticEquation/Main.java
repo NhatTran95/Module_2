@@ -12,6 +12,7 @@ public class Main {
         System.out.println("Nhập c: ");
         double c = scanner.nextDouble();
         QuadraticEquation quadraticEquation = new QuadraticEquation(a, b, c);
+        System.out.println(quadraticEquation.getDiscriminant());
         if (quadraticEquation.getDiscriminant() > 0) {
             System.out.println("Phương trình có 2 nghiệm x1= " + quadraticEquation.getRoot1() + " và x2= " + quadraticEquation.getRoot2());
         } else if (quadraticEquation.getDiscriminant() == 0) {
