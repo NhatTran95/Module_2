@@ -19,8 +19,8 @@ public class Cylinder extends Circle{
     public void setHeight(double height) {
         this.height = height;
     }
-
-    public double getArea1(){
+    @Override
+    public double getArea(){
         return super.getArea()*2 + super.getPerimeter()*height;
     }
     public double getVolume(){
@@ -31,10 +31,12 @@ public class Cylinder extends Circle{
         return "A Cylinder has height = "
                 + getHeight()
                 + ", Area = "
-                + getArea1()
+                + getArea()
                 + ", Volume = "
                 + getVolume()
-                + ", which is a subclass of "
-                + super.toString();
+                + ", radius = "
+                + getRadius()
+                +", Area cỉcle = "
+                + super.getArea();
     }
 }
