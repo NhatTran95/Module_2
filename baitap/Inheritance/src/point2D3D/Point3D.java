@@ -2,8 +2,10 @@ package point2D3D;
 
 import org.omg.PortableInterceptor.ServerRequestInfo;
 
+import java.util.Arrays;
+
 public class Point3D extends Point2D{
-    private float z =0.0f;
+    private float z;
     public Point3D(){
 
     }
@@ -23,14 +25,17 @@ public class Point3D extends Point2D{
         super.setXY(x, y);
         this.z = z;
     }
-    public float[] getXYZ(float x, float y, float z){
+    public float[] getXYZ(){
         float[] arr = new float[3];
-        arr[0] = x;
-        arr[1] = y;
-        arr[2] = z;
+        arr[0] = this.getX();
+        arr[1] = this.getY();
+        arr[2] = this.z;
         return arr;
+        //return new float[] {this.getX(), this.getY(), this.z};
+        // float[] arr = {this.getX(), this.getY(), this.z};
+        // return arr;
     }
     public String toString(){
-        return String.format("(%s, %s, %s)", this.getX(), this.getY(), this.z);
+        return String.format("%s", Arrays.toString(getXYZ()));
     }
 }
