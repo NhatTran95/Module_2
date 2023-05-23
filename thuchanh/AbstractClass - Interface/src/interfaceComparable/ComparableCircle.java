@@ -4,7 +4,7 @@ package interfaceComparable;
 
 
 public class ComparableCircle extends Circle
-        implements java.lang.Comparable<ComparableCircle> {
+        implements Comparable<ComparableCircle> {
     public ComparableCircle(){
     }
     public ComparableCircle(double radius){
@@ -18,6 +18,6 @@ public class ComparableCircle extends Circle
     public int compareTo(ComparableCircle o) {
         if (getRadius() > o.getRadius()) return 1;
         else if (getRadius() < o.getRadius()) return -1;
-        else return 0;
+        else return 1;
     }
 }
