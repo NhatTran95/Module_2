@@ -1,6 +1,6 @@
 package practice.abstractClassInterface.comparatorCircle;
 
-import interfaceComparable.Circle;
+import practice.inheritance.Circle;
 
 import java.util.Arrays;
 import java.util.Comparator;
