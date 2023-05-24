@@ -46,7 +46,7 @@ public class Main {
                    break;
                 }
             }
-            if(flag == true){
+            if(flag){
                 System.out.print(numbers[i] + " ");
             }
         }
