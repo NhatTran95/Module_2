@@ -1,8 +1,5 @@
 package practice.abstractClassInterface.interfaceComparable;
 
-
-
-
 public class ComparableCircle extends Circle
         implements Comparable<ComparableCircle> {
     public ComparableCircle(){
