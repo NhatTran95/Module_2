@@ -1,4 +1,4 @@
-package exercise.refactoring;
+package practice.testing;
 
 public class SimpleCaculator {
     public static int add(int first, int second){

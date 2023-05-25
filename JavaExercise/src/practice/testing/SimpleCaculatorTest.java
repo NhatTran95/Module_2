@@ -1,4 +1,4 @@
-package exercise.refactoring;
+package practice.testing;
 
 
 import org.junit.jupiter.api.DisplayName;
