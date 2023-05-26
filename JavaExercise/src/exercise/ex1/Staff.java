@@ -26,12 +26,12 @@ public class Staff extends Officer{
     @Override
     public String toString() {
         return "Staff{" +
-                ", id=" + id +
+                "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
                 ", gender='" + gender + '\'' +
                 ", address='" + address + '\'' +
-                "task='" + task + '\'' +
+                ", task='" + task + '\'' +
                 '}';
     }
 }

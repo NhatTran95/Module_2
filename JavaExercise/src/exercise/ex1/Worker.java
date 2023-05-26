@@ -26,12 +26,12 @@ public class Worker extends Officer{
     @Override
     public String toString() {
         return "Worker{" +
-                ", id=" + id +
+                "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
                 ", gender='" + gender + '\'' +
                 ", address='" + address + '\'' +
-                "level=" + level +
+                ", level=" + level +
                 '}';
     }
 }
