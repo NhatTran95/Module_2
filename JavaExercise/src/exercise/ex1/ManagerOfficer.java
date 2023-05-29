@@ -144,17 +144,17 @@ public class ManagerOfficer {
         }
     }
 
-    public void editOfficesById(Officer[] officers, long idOffice, Officer o) {
-        for (Officer item : officers) {
-            if (item.getId() == idOffice) {
-                item.setName(o.getName());
-                item.setAddress(o.getAddress());
-                item.setAge(o.getAge());
-                item.setGender(o.getGender());
-                break;
-            }
-        }
-    }
+//    public void editOfficesById(Officer[] officers, long idOffice, Officer o) {
+//        for (Officer item : officers) {
+//            if (item.getId() == idOffice) {
+//                item.setName(o.getName());
+//                item.setAddress(o.getAddress());
+//                item.setAge(o.getAge());
+//                item.setGender(o.getGender());
+//                break;
+//            }
+//        }
+//    }
 
     public void showMenu(Officer officer) {
         System.out.println("Chọn thông tin cần sửa: ");
@@ -178,25 +178,25 @@ public class ManagerOfficer {
                 System.out.println("Nhập tên mới: ");
                 String name = scanner.nextLine();
                 officerEdit.setName(name);
-                editOfficesById(officers, id, officerEdit);
+//                editOfficesById(officers, id, officerEdit);
                 break;
             case 2:
                 System.out.println("Nhập tuổi mới: ");
                 int Age = Integer.parseInt(scanner.nextLine());
                 officerEdit.setAge(Age);
-                editOfficesById(officers, id, officerEdit);
+//                editOfficesById(officers, id, officerEdit);
                 break;
             case 3:
                 System.out.println("Nhập địa chỉ mới: ");
                 String Address = scanner.nextLine();
                 officerEdit.setAddress(Address);
-                editOfficesById(officers, id, officerEdit);
+//                editOfficesById(officers, id, officerEdit);
                 break;
             case 4:
                 System.out.println("Nhập giới tính mới: ");
                 String gender = scanner.nextLine();
                 officerEdit.setAddress(gender);
-                editOfficesById(officers, id, officerEdit);
+//                editOfficesById(officers, id, officerEdit);
                 break;
             case 5:
                 if(officerEdit instanceof Worker){
