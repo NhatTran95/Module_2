@@ -24,10 +24,15 @@ public class MyList<E> {
             elements = Arrays.copyOf(elements, newSize);
         }
     }
+    private void checkIndex(int index) {
+        if (index < 0 || index >= size) {
+            throw new RuntimeException();
+        }
+    }
 
     public void add(int index, E e) {
-        checkIndex(index);
         ensureCapacity();
+        checkIndex(index);
         for (int i = size - 1; i >= index; i--) {
             elements[i + 1] = elements[i];
         }
@@ -53,25 +58,13 @@ public class MyList<E> {
 
     public E remove(int index) {
         checkIndex(index);
+        Object temp = elements[index];
         for (int i = index; i < size - 1; i++) {
             elements[i] = elements[i + 1];
         }
         elements[size - 1] = null;
         size--;
-        return (E) elements[index];
-    }
-
-    private void checkIndex(int index) {
-        if (index < 0 || index >= size) {
-            throw new RuntimeException();
-        }
-    }
-
-    public MyList<E> clone() {
-        MyList<E> clone = new MyList<>();
-        clone.elements = Arrays.copyOf(this.elements, this.size);
-        clone.size = this.size;
-        return clone;
+        return (E) temp;
     }
 
     public boolean contains(E element) {
@@ -87,16 +80,32 @@ public class MyList<E> {
         }
         return index;
     }
+    public void clear(){
+        for(int i = 0; i < size; i++){
+            elements[i] = null;
+        }
+    }
+    public MyList<E> clone() {
+        MyList<E> clone = new MyList<>();
+        clone.elements = Arrays.copyOf(this.elements, this.size);
+        clone.size = this.size;
+        return clone;
+    }
 
     public static void main(String[] args) {
-        MyList<Integer> integerArrayList = new MyList<>();
-        integerArrayList.add(null);
-        integerArrayList.add(null);
-        integerArrayList.add(1);
-        integerArrayList.add(1, 10);
-        for (int i = 0; i < integerArrayList.size; i++) {
-            System.out.println(integerArrayList.get(i));
+        MyList<Integer> numbers = new MyList<>();
+        numbers.add(1);
+        numbers.add(3);
+        numbers.add(5);
+        numbers.add(2);
+        numbers.add(4);
+        numbers.add(2, 10);
+        numbers.add(5,  10);
+        numbers.remove(0);
+        for (int i = 0; i < numbers.size(); i++){
+            System.out.println(numbers.get(i));
         }
+
     }
 }
 
