@@ -12,9 +12,6 @@ public class MyLinkedListTest {
         myLinkedList.addLast(5);
         myLinkedList.addLast(6);
         myLinkedList.addLast(9);
-        for (Integer item : myLinkedList){
-            System.out.println(item);
-        }
         myLinkedList.add(2, 10);
         myLinkedList.remove(1);
         for(int i = 0; i < myLinkedList.size(); i++){

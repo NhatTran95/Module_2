@@ -1,6 +1,9 @@
 package exercise.javaCollectionFramework.linkedList;
 
+import java.util.Iterator;
+
 public class MyLinkedList<E>{
+
     private class Node{
         private Node next;
         private Object data;

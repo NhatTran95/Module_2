@@ -107,6 +107,7 @@ public class ManagerOfficer {
         Comparator comparatorByAge = new ComparatorByAge();
         Arrays.sort(officers, comparatorByAge);
         showOfficers(officers);
+
     }
 
     public void comparatorByName() {
