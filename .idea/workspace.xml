@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7291f6ce-7a44-49ef-9327-56a34c3daded" name="Changes" comment="" />
+    <list default="true" id="7291f6ce-7a44-49ef-9327-56a34c3daded" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaExercise/src/practice/exception/ArrayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExercise/src/practice/exception/CalculationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExercise/src/practice/exception/IllegalTriangleException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExercise/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercise/.idea/.name" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,9 +33,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Module2/Module2/JavaExercise&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Module2/Module2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -37,7 +44,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.exercise15.Main">
+  <component name="RunManager" selected="Application.exercise13.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise12.Main" />
       <module name="TwentyExercise" />
@@ -114,6 +121,14 @@
       <workItem from="1685262146571" duration="594000" />
       <workItem from="1685345108182" duration="48000" />
       <workItem from="1685594302843" duration="30000" />
+      <workItem from="1685696250250" duration="36000" />
+      <workItem from="1685696295110" duration="10000" />
+      <workItem from="1685696312404" duration="19000" />
+      <workItem from="1685701415692" duration="22000" />
+      <workItem from="1685701462077" duration="12000" />
+      <workItem from="1685914214166" duration="33000" />
+      <workItem from="1685914252641" duration="30000" />
+      <workItem from="1685920907723" duration="34000" />
     </task>
     <servers />
   </component>
