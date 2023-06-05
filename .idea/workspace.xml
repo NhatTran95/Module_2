@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7291f6ce-7a44-49ef-9327-56a34c3daded" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaExercise/src/practice/exception/ArrayExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaExercise/src/practice/exception/CalculationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaExercise/src/practice/exception/IllegalTriangleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExercise/src/practice/file_io/ExIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExercise/src/practice/file_io/FileMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExercise/src/practice/file_io/numbers.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaExercise/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercise/.idea/.name" afterDir="false" />
     </list>
@@ -31,19 +31,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Module2/Module2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/Module2/casedemo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.exercise13.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise12.Main" />
@@ -58,7 +58,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exercise13.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="exercise13.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise13.Main" />
       <module name="TwentyExercise" />
       <extension name="coverage">
@@ -101,7 +101,6 @@
       <list>
         <item itemvalue="Application.exercise15.Main" />
         <item itemvalue="Application.exercise14.Main" />
-        <item itemvalue="Application.exercise13.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -129,6 +128,11 @@
       <workItem from="1685914214166" duration="33000" />
       <workItem from="1685914252641" duration="30000" />
       <workItem from="1685920907723" duration="34000" />
+      <workItem from="1685935523930" duration="29000" />
+      <workItem from="1685947033863" duration="597000" />
+      <workItem from="1685973356273" duration="7000" />
+      <workItem from="1685980436609" duration="16000" />
+      <workItem from="1686003381754" duration="363000" />
     </task>
     <servers />
   </component>
