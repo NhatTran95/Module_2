@@ -1,0 +1,42 @@
+package exercise.iofile;
+
+public class Nations {
+    private int id;
+    private String code;
+    private String name;
+    public Nations(){};
+    public Nations(int id, String code, String name){
+        this.id = id;
+        this.code = code;
+        this.name = name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s,%s,%s", this.id, this.code, this.name);
+    }
+}
