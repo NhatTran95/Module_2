@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7291f6ce-7a44-49ef-9327-56a34c3daded" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaExercise/src/practice/file_io/ExIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaExercise/src/practice/file_io/FileMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaExercise/src/practice/file_io/numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExercise/data/users.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExercise/src/practice/example/RomanToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExercise/src/practice/example/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaExercise/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExercise/.idea/.name" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +35,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/Module2/casedemo",
+    "last_opened_file_path": "F:/Module2/Module2/JavaExercise",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -133,6 +132,8 @@
       <workItem from="1685973356273" duration="7000" />
       <workItem from="1685980436609" duration="16000" />
       <workItem from="1686003381754" duration="363000" />
+      <workItem from="1686823419345" duration="29000" />
+      <workItem from="1686823460079" duration="17000" />
     </task>
     <servers />
   </component>
